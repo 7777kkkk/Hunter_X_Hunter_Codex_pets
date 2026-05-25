@@ -10,6 +10,23 @@ This repository begins with one pet, Killua, and is structured so more character
 | --- | --- | --- |
 | `cool-killua` | Killua Zoldyck / 奇犽·揍敌客 | [Contact sheet](previews/cool-killua-contact-sheet.png) |
 
+## Preview
+
+### `cool-killua` / 酷奇犽
+
+<p align="center">
+  <img src="previews/cool-killua-contact-sheet.png" alt="Killua animation contact sheet" width="720">
+</p>
+
+<p align="center">
+  <img src="previews/cool-killua-idle.gif" alt="Killua idle animation" width="180">
+  <img src="previews/cool-killua-waving.gif" alt="Killua waving animation" width="180">
+  <img src="previews/cool-killua-jumping.gif" alt="Killua jumping animation" width="180">
+  <img src="previews/cool-killua-running.gif" alt="Killua task animation with electricity" width="180">
+</p>
+
+<p align="center"><sub>Idle / Waving / Jumping / Task work</sub></p>
+
 ## Install
 
 Copy the desired pet directory into your Codex custom pets folder:
