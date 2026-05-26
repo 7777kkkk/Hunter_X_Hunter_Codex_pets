@@ -2,13 +2,15 @@
 
 Fan-made animated desktop pets for Codex inspired by characters from *Hunter x Hunter*.
 
-This repository begins with one pet, Killua, and is structured so more characters can be added under `pets/` later.
+This repository contains multiple fan-made pets and is structured so more characters and visual variants can be added under `pets/` later.
 
 ## Available Pets
 
 | Pet | Character | Preview |
 | --- | --- | --- |
 | `cool-killua` | Killua Zoldyck / 奇犽·揍敌客 | [Contact sheet](previews/cool-killua-contact-sheet.png) |
+| `cute-killua` | Cute Killua / 萌版奇犽 | [Contact sheet](previews/cute-killua-contact-sheet.png) |
+| `cute-gon` | Cute Gon / 萌版小杰 | [Contact sheet](previews/cute-gon-contact-sheet.png) |
 
 ## Preview
 
@@ -27,15 +29,41 @@ This repository begins with one pet, Killua, and is structured so more character
 
 <p align="center"><sub>Idle / Waving / Jumping / Task work</sub></p>
 
+### `cute-killua` / 萌版奇犽
+
+<p align="center">
+  <img src="previews/cute-killua-contact-sheet.png" alt="Cute Killua animation contact sheet" width="720">
+</p>
+
+<p align="center">
+  <img src="previews/cute-killua-idle.gif" alt="Cute Killua idle animation" width="180">
+  <img src="previews/cute-killua-waving.gif" alt="Cute Killua waving animation" width="180">
+  <img src="previews/cute-killua-running.gif" alt="Cute Killua task animation with electricity" width="180">
+</p>
+
+### `cute-gon` / 萌版小杰
+
+<p align="center">
+  <img src="previews/cute-gon-contact-sheet.png" alt="Cute Gon animation contact sheet" width="720">
+</p>
+
+<p align="center">
+  <img src="previews/cute-gon-idle.gif" alt="Cute Gon idle animation" width="180">
+  <img src="previews/cute-gon-waving.gif" alt="Cute Gon waving animation" width="180">
+  <img src="previews/cute-gon-running.gif" alt="Cute Gon task animation" width="180">
+</p>
+
 ## Install
 
-Copy the desired pet directory into your Codex custom pets folder:
+Copy one desired pet directory into your Codex custom pets folder:
 
 ```text
-%USERPROFILE%\.codex\pets\cool-killua\
+%USERPROFILE%\.codex\pets\<pet-id>\
   pet.json
   spritesheet.webp
 ```
+
+Available pet IDs: `cool-killua`, `cute-killua`, and `cute-gon`.
 
 In Codex, open **Settings > Personalization > Pets**, refresh custom pets, select the new pet, and wake it if it is hidden.
 
@@ -59,6 +87,8 @@ The spritesheet uses the Codex custom pet atlas format:
 ## Project Status
 
 - `cool-killua`: available
+- `cute-killua`: available
+- `cute-gon`: available
 - Additional *Hunter x Hunter* pets: planned
 
 ## Disclaimer
@@ -71,8 +101,8 @@ This is an unofficial, fan-made project and is not affiliated with or endorsed b
 
 # 全职猎人 Codex 桌面宠物
 
-这是一个非官方粉丝项目，用于收集可在 Codex 中使用的《全职猎人》动画桌面宠物。当前首个角色为奇犽，后续可继续在 `pets/` 下扩展更多角色。
+这是一个非官方粉丝项目，用于收集可在 Codex 中使用的《全职猎人》动画桌面宠物。当前包含酷奇犽、萌版奇犽和萌版小杰，后续可继续在 `pets/` 下扩展更多角色及造型版本。
 
-安装时将 `pets/cool-killua` 文件夹复制到 `%USERPROFILE%\.codex\pets\`，然后在 Codex 的 **设置 > 个性化 > 宠物** 中刷新并选择该宠物。
+安装时将所需的 `pets/<pet-id>` 文件夹复制到 `%USERPROFILE%\.codex\pets\`，然后在 Codex 的 **设置 > 个性化 > 宠物** 中刷新并选择该宠物。
 
 角色与作品相关权利归原权利方所有。本项目不代表官方授权，也不对角色衍生美术素材授予开源许可。
