@@ -12,6 +12,8 @@ This repository contains multiple fan-made pets and is structured so more charac
 | `cute-killua` | Cute Killua / 萌版奇犽 | [Contact sheet](previews/cute-killua-contact-sheet.png) |
 | `cute-gon` | Cute Gon / 萌版小杰 | [Contact sheet](previews/cute-gon-contact-sheet.png) |
 | `uvogin` | Uvogin / 窝金 | [Contact sheet](previews/uvogin-contact-sheet.png) |
+| `hisoka` | Hisoka / 西索 | [Contact sheet](previews/hisoka-contact-sheet.png) |
+| `chrollo` | Chrollo Lucilfer / 库洛洛 | [Contact sheet](previews/chrollo-contact-sheet.png) |
 
 ## Preview
 
@@ -69,6 +71,34 @@ This repository contains multiple fan-made pets and is structured so more charac
   <img src="previews/uvogin-running-right.gif" alt="Uvogin moving right animation" width="180">
 </p>
 
+### `hisoka` / 西索
+
+<p align="center">
+  <img src="previews/hisoka-contact-sheet.png" alt="Hisoka animation contact sheet" width="720">
+</p>
+
+<p align="center">
+  <img src="previews/hisoka-idle.gif" alt="Hisoka idle animation" width="160">
+  <img src="previews/hisoka-waving.gif" alt="Hisoka waving animation" width="160">
+  <img src="previews/hisoka-jumping.gif" alt="Hisoka jumping animation" width="160">
+  <img src="previews/hisoka-running.gif" alt="Hisoka task animation" width="160">
+  <img src="previews/hisoka-review.gif" alt="Hisoka review animation" width="160">
+</p>
+
+### `chrollo` / 库洛洛
+
+<p align="center">
+  <img src="previews/chrollo-contact-sheet.png" alt="Chrollo animation contact sheet" width="720">
+</p>
+
+<p align="center">
+  <img src="previews/chrollo-idle.gif" alt="Chrollo idle animation" width="160">
+  <img src="previews/chrollo-waving.gif" alt="Chrollo acknowledgement animation" width="160">
+  <img src="previews/chrollo-jumping.gif" alt="Chrollo jumping animation" width="160">
+  <img src="previews/chrollo-running.gif" alt="Chrollo task animation" width="160">
+  <img src="previews/chrollo-review.gif" alt="Chrollo review animation" width="160">
+</p>
+
 ## Install
 
 Copy one desired pet directory into your Codex custom pets folder:
@@ -79,7 +109,7 @@ Copy one desired pet directory into your Codex custom pets folder:
   spritesheet.webp
 ```
 
-Available pet IDs: `cool-killua`, `cute-killua`, `cute-gon`, and `uvogin`.
+Available pet IDs: `cool-killua`, `cute-killua`, `cute-gon`, `uvogin`, `hisoka`, and `chrollo`.
 
 In Codex, open **Settings > Personalization > Pets**, refresh custom pets, select the new pet, and wake it if it is hidden.
 
@@ -108,6 +138,8 @@ The spritesheet uses the Codex custom pet atlas format:
 - `cute-killua`: available
 - `cute-gon`: available
 - `uvogin`: available
+- `hisoka`: available
+- `chrollo`: available
 - Additional *Hunter x Hunter* pets: planned
 
 ## Disclaimer
@@ -120,7 +152,7 @@ This is an unofficial, fan-made project and is not affiliated with or endorsed b
 
 # 全职猎人 Codex 桌面宠物
 
-这是一个非官方粉丝项目，用于收集可在 Codex 中使用的《全职猎人》动画桌面宠物。当前包含酷奇犽、萌版奇犽、萌版小杰和窝金，后续可继续在 `pets/` 下扩展更多角色及造型版本。
+这是一个非官方粉丝项目，用于收集可在 Codex 中使用的《全职猎人》动画桌面宠物。当前包含酷奇犽、萌版奇犽、萌版小杰、窝金、西索和库洛洛，后续可继续在 `pets/` 下扩展更多角色及造型版本。
 
 安装时将所需的 `pets/<pet-id>` 文件夹复制到 `%USERPROFILE%\.codex\pets\`，然后在 Codex 的 **设置 > 个性化 > 宠物** 中刷新并选择该宠物。
 
